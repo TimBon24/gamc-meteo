@@ -36,9 +36,10 @@ GAMC_PASSWORD= <пароль от meteoinfo.gamc.ru>
 ```bash
 git clone https://github.com/TimBon24/gamc-meteo.git
 cd gamc-meteo
-#создание файла в переменными окружения
+#создание файла c переменными окружения
 nano .env
 pip install -r requirements.txt
+#создание директории для файлов
 mkdir -p media/files/meteo/
 #виртуальное окружение
 python -m venv venv
